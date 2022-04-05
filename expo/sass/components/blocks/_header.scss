@@ -1,0 +1,18 @@
+.site_header {
+    background-color: #181818;
+  }
+  
+  .logo {
+    width: 4.6rem !important;
+  }
+  
+  .logotxt {
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .logo {
+      width: 4rem !important;
+    }
+  }
+  

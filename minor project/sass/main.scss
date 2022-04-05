@@ -4,15 +4,13 @@
 
 // Variables
 @import "variables/variables";
-//Mixins
-@import "mixins/mixins";
+
 
 //typography
-
+@import "typography/typography";
 @import "typography/icons";
 @import "typography/colors";
 @import "typography/bolds";
-@import "typography/typography";
 
 // Base
 @import "base/base";
@@ -22,6 +20,7 @@
 @import "base/toggle";
 @import "base/shadows";
 @import "base/container";
+
 
 // components
 @import "components/inputs";
@@ -39,7 +38,6 @@
 @import "components/cards";
 @import "components/icons";
 @import "components/nav";
-@import "components/table";
 
 // @import "components/fecard";
 // @import "components/vdcard";
@@ -47,6 +45,13 @@
 // Pages
 @import "pages/auth";
 @import "pages/home";
+@import "pages/fm";
+@import "pages/grid";
+@import "pages/aboutus";
+@import "pages/frontview";
+@import "pages/contactus";
+@import "pages/portfolio";
+
 
 // Test
 @import "test";

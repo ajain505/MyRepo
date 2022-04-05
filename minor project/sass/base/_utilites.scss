@@ -1,7 +1,7 @@
 // Check Bod
-.bod {
-  border: 1px solid red;
-}
+// .bod {
+//   border: 1px solid red;
+// }
 
 // a
 .nodeco {
@@ -10,6 +10,19 @@
 
 .nodeco:hover {
   text-decoration: none;
+}
+.noblue{
+  color: rgb(54, 54, 54) ;
+}
+.noblue:hover{
+  color: #ffc068;
+}
+.noblue a{
+  color: rgba(99, 96, 96, 0.918);
+}
+
+.noblue a:hover{
+  color: #ffbf68;
 }
 
 // li
@@ -43,11 +56,6 @@
   text-align: center;
 }
 
-// Content Width
-.cw {
-  width: max-content;
-}
-
 // Flex Box
 .flex {
   display: flex !important;
@@ -56,12 +64,6 @@
 .fdc {
   flex-direction: column;
 }
-
-.flex_w {
-  flex-wrap: wrap;
-}
-
-//  Justify Content center
 
 .jcc {
   justify-content: center;
@@ -81,43 +83,42 @@
 .aic {
   align-items: center;
 }
+.aie{
+  align-items: flex-end;
+}
+.fw{
+  flex-wrap: wrap;
+}
 
 // Position Fixed
 .fxd {
   position: fixed;
   z-index: 1000;
 }
-.fxd_sticky {
-  position: sticky;
-  z-index: 1000;
+
+.rl{
+  position: relative !important;
+}
+.ab{
+  position: absolute !important;
 }
 
-.rl {
-  position: relative;
+.wspc{
+  word-spacing: 0.4rem;
+}
+.lspc{
+  letter-spacing: 0.05rem;
+}
+.jumbo{
+  font-size: 5.2rem;
+}
+.jumbo_x{
+  font-size: 7rem
+}
+.blk1{
+  color: #2e2d2d !important;
 }
 
-.abc {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.grid {
-  display: grid;
-}
-
-@media screen and (max-width: 780px) {
-  .mobtxtl {
-    text-align: left;
-  }
-  .mobtxtr {
-    text-align: right;
-  }
-  .mobtxtr {
-    text-align: center;
-  }
-}
 
 // .item {
 //   width: 25%;

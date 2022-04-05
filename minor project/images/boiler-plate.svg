@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="100px" viewBox="0 0 52 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 11 Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.7403 51.5767 0.7403 51.5767 91 0 91"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v" transform="translate(-977.000000, -84.000000)">
+            <g id="Group-11-Copy-6" transform="translate(977.000000, 84.000000)">
+                <g id="Group-3" transform="translate(0.000000, 9.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M47.5767,91.0003 L3.9997,91.0003 C1.7907,91.0003 -0.0003,89.2093 -0.0003,87.0003 L-0.0003,4.7403 C-0.0003,2.5313 1.7907,0.7403 3.9997,0.7403 L47.5767,0.7403 C49.7857,0.7403 51.5767,2.5313 51.5767,4.7403 L51.5767,87.0003 C51.5767,89.2093 49.7857,91.0003 47.5767,91.0003" id="Fill-1" fill="#BED8FF" mask="url(#mask-2)"></path>
+                </g>
+                <polygon id="Fill-4" fill="#2C7FFF" points="4.735 74.642 46.837 74.642 46.837 58.102 4.735 58.102"></polygon>
+                <path d="M36.6104,3.3333 L36.6104,9.7463 L14.9704,9.7463 L14.9704,3.3333 C14.9704,3.2133 14.9704,3.0933 14.9844,2.9733 C15.1704,1.3073 16.5844,0.0003 18.3044,0.0003 L33.2774,0.0003 C34.9974,0.0003 36.4104,1.3073 36.5974,2.9733 C36.6104,3.0933 36.6104,3.2133 36.6104,3.3333" id="Fill-6" fill="#BED8FF"></path>
+                <polygon id="Fill-7" fill="#2C7FFF" points="4.735 53.102 46.837 53.102 46.837 36.562 4.735 36.562"></polygon>
+                <polygon id="Fill-8" fill="#2C7FFF" points="4.739 31.562 46.842 31.562 46.842 15.022 4.739 15.022"></polygon>
+                <polygon id="Fill-9" fill="#2C7FFF" points="4.735 96.182 46.837 96.182 46.837 79.642 4.735 79.642"></polygon>
+                <polygon id="Fill-10" fill="#FFFFFF" points="33.9864 21.4486 6.2394 59.7816 23.8964 59.7816 15.4884 88.2926 45.3374 50.8776 26.1274 50.8776"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

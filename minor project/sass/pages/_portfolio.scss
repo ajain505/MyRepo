@@ -1,0 +1,262 @@
+// header
+.head_input{
+    background-color: #fafafa;
+    color: rgb(22, 21, 21);
+    border: 0.5px solid rgba(48, 47, 47, 0.164);
+    border-radius: 0.6rem;
+    padding: 0.4rem 8rem 0.4rem 1.5rem;    
+}
+
+.head_input::placeholder{
+    color: rgb(90, 90, 90);
+}
+.head_micon{
+    padding: 0.3rem 1rem;
+    background-color: #fffefe;
+    border: 1px solid rgba(196, 196, 196, 0.767);
+    border-radius: 6px;
+}
+.btn{
+    padding: 1rem 2.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+    background-color: #2e2d2d;
+    color: rgb(247, 242, 242);
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    background-color: #ffbf68;
+    color: rgb(32, 32, 32);
+    // color: rgb(247, 242, 242);
+}
+.nav_link a{
+    color: rgb(39, 38, 38);
+    padding-right: 3.2rem;
+}
+.nav_icon{
+    font-size: 1.1rem;
+}
+.mrg{
+    margin: 0.6rem;
+}
+
+
+// header end
+
+// hero
+.hero_section{
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+}
+.hero_hgt{
+    height: 39rem;   
+}
+.animation{
+    animation: mover 2.5s infinite ease-in alternate-reverse;
+   
+
+    @keyframes mover {
+        0% { transform: translateX(-6px); }
+        100% { transform: translateY(6px); }
+    }
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.3); 
+}
+
+.hero_btn{
+    padding: 0.8rem 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+    background-color: #2e2d2d;
+    color: rgb(247, 242, 242); 
+    transition: all 0.2s ease; 
+}
+.hero_btn:hover{
+    background-color: #ffbf68;
+    color: rgb(32, 32, 32);
+    // color: rgb(247, 242, 242);
+}    
+
+.orng{
+    color: #ffbf68;
+}
+.brand_icon{
+    background-color:#fff594;
+    border-radius: 0.5rem;
+}
+
+.number{
+    padding-right: 6rem !important;
+    color: #ffbf68;
+}
+
+
+.gridtest {
+    height: 78vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 1rem;
+  }
+  
+  .gbox1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  
+  .gbox4 {
+    grid-column: 2/4;
+  }
+  
+  .gbox {
+    border-radius: 0.5rem;
+    background-color: #fff594;
+  }
+
+.svc_card:hover{
+    box-shadow: 0px 10px 30px 0 rgba(182, 182, 182, 0.89);
+
+}  
+  
+.news_input{
+  border: 1px solid rgb(119, 118, 118);
+  border-radius: 3px;
+  color: $font_clr;
+  outline: none;
+  padding: 0.7rem;
+  margin-right: 0.8rem;
+//   background-color: #ffbf68;
+//   color:black;
+}
+
+.footer_link a{
+    font-size: 1.7rem;
+}
+
+.footer_icons {
+    padding-right: 0.4rem !important;
+}
+.orng:hover{
+    color: #ffe5c2;
+}
+.footer_bg{
+    background-color: #1f1e1d;
+    color: #f7f7f7e0;
+}
+.footer_bg2{
+    background-color:#ffc068;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .container{
+      max-width: 102rem !important;
+    }
+    .head_input{
+        padding-right:6rem ;
+    }
+    .jumbo{
+        font-size: 4.6rem;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 90rem !important;
+    }
+    .head_input{
+        padding-right:15rem ;
+    }
+    .tc{
+        text-align: center;
+    }
+    .jumbo{
+        font-size: 5rem;
+    }
+    // .fwr{
+    //     flex-wrap: wrap;
+    // }
+    .je{
+        justify-content: space-evenly;
+    }
+    .number{
+        padding-right: 0rem !important;
+    }
+
+}
+@media screen and (max-width: 980px) {
+    .gbox1,
+    .gbox2,
+    .gbox3,
+    .gbox4,
+    .gbox5,
+    .gbox6 {
+      grid-column: 1/4;
+    }
+}
+  
+
+@media only screen and (max-width: 768px) {
+   .container{
+       max-width: 68rem !important;
+   }
+   .jumbo{
+    font-size: 5.3rem;
+    }
+    .fwr{
+        flex-wrap: wrap;
+    }
+    .number{
+        padding-right: 0rem !important;
+    }
+    .je{
+        justify-content: space-evenly;
+    }
+    .tc{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 53rem !important;
+    }
+    .jumbo{
+        font-size: 4.6rem;
+    }
+    .tc{
+        text-align: center;
+    }
+    .jc{
+        justify-content: center;
+    }
+    .fwr{
+        flex-wrap: wrap;
+    }
+    .flex{
+       display: inline !important;
+    }
+    .hero_hgt {
+        height: 14rem;
+    }
+    .hero_section{
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+    .hero_btn{
+        padding: 0.5rem 1.5rem;
+    }
+    .mrg{
+        margin: 0rem;
+    }
+}
+

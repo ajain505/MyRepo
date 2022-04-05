@@ -11,21 +11,9 @@
 $primary_clr: #7e89fd;
 $secondary_clr: #ffc933;
 $tertiary_clr: #3945ba;
-
-$font_clr: #282c32;
+$font_clr: #333;
 $bg_clr: #f0f4ff;
 $cta_clr: #f00d00;
-
-// Button Component Color
-$btn_clr: #fff; // button Color
-$btn_bg_clr: #282c32; // button Background Color
-$btn_hvr_clr: rgb(241, 241, 241); // button Background Color
-$btn_hvr_bg_clr: #1b1f24; // button Background Color
-
-// Bloquote Color
-$blq_clr: rgb(238, 238, 238); // Bloquote Color
-$a_clr: #f12c18; // Anchor Color
-$a_clr_hover: rgb(22, 22, 22); // Anchor Color
 
 .dim {
   color: rgb(131, 131, 131);
@@ -38,4 +26,7 @@ $a_clr_hover: rgb(22, 22, 22); // Anchor Color
 }
 .wht {
   color: #fff;
+}
+.blk{
+color: black !important;
 }
