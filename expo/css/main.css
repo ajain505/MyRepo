@@ -1479,11 +1479,11 @@ body {
   border: none;
   margin-top: 0.3rem !important;
   width: 100%;
-  background-color: #ffffffc2;
+  background-color: #ffffff38;
 }
 
 .cont_input::placeholder, .cont_textarea::placeholder {
-  color: #3a3a3a;
+  color: rgba(221, 220, 220, 0.591);
 }
 
 .lbl {
@@ -1499,7 +1499,7 @@ body {
   border: none;
   width: 100%;
   padding: 0.7rem;
-  background-color: #ffffffc2;
+  background-color: #ffffff38;
 }
 
 .cont_btn {
