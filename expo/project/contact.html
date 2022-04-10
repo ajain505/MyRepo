@@ -45,83 +45,83 @@
 
 </head>
 <body>
-      <section class="section-s cont_bck w-100">
+    <section class="section-s cont_bck w-100">
         <div class="container bod">
             <div class="row jcc">
-                <div class="col-lg-6 bod mt pzero">
-                    <div class="cont_card bod">
-                        <div class="row jcse">
-                            <div class="col-md-6 col-12 bod">
-                                <div>
-                                    <label for="fname" class="bold5 lbl">First Name:</label>
+                <div class="col-lg-6 bod mt">
+                    <form action="contact.php" method="post">
+                        <div class="cont_card bod">
+                            <div class="row jcse">
+                                <div class="col-md-6 col-12 bod">
+                                    <div>
+                                        <label for="fname" class="bold5 lbl">First Name:</label>
+                                    </div>
+                                    <input type="text" class="cont_input" name="fname" placeholder="First name" required>
                                 </div>
-                                <input type="text" class="cont_input" name="fname" placeholder="First name" required>
-                            </div>
-                            <div class="col-md-6 col-12 bod">
-                                <div>
-                                    <label for="lname" class="bold5 lbl">Last Name:</label>
+                                <div class="col-md-6 col-12 bod">
+                                    <div>
+                                        <label for="lname" class="bold5 lbl">Last Name:</label>
+                                    </div>
+                                    <input type="text" class="cont_input" name="lname" placeholder="Last name" required>
                                 </div>
-                                <input type="text" class="cont_input" name="lname" placeholder="Last name" required>
                             </div>
-                        </div>
 
-                        <div class="row m3">
-                            <div class="col-md-12 col-12 bod p-0">
-                                <div>
-                                    <label for="email" class="bold5 lbl">Email:</label>
+                            <div class="row m3">
+                                <div class="col-md-12 col-12 bod p-0">
+                                    <div>
+                                        <label for="email" class="bold5 lbl">Email:</label>
+                                    </div>
+                                    <input type="email" class="cont_input cont_email w-100" name="email" placeholder="Email"
+                                        required>
                                 </div>
-                                <input type="email" class="cont_input cont_email w-100" name="email" placeholder="Email"
-                                    required>
                             </div>
-                        </div>
 
-                        <div class="row m3">
-                            <div class="col-md-12 col-12 bod p-0">
-                                <div>
-                                    <label for="message" class="bold5 lbl">Message:</label>
+                            <div class="row m3">
+                                <div class="col-md-12 col-12 bod p-0">
+                                    <div>
+                                        <label for="message" class="bold5 lbl">Message:</label>
+                                    </div>
+                                    <input type="text" class="cont_input cont_email w-100" name="message"
+                                        placeholder="Message" required>
                                 </div>
-                                <input type="text" class="cont_input cont_email w-100" name="message"
-                                    placeholder="Message" required>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-12 col-12">
-                                <div>
-                                    <label for="details" class="bold5 lbl">Additional Details:</label>
+                            <div class="row">
+                                <div class="col-md-12 col-12">
+                                    <div>
+                                        <label for="description" class="bold5 lbl">Additional Details:</label>
+                                    </div>
+                                    <textarea name="description" class="cont_textarea" rows="5" cols="54" placeholder="Write Your Concern Here!"></textarea>
                                 </div>
-                                <textarea name="details" class="cont_textarea" rows="5" cols="54" placeholder="Write Your Concern Here!"></textarea>
                             </div>
-                        </div>
 
-                        <div class="row m2">
-                            <div class="col-md-12 col-12 p-0">
-                                <a href="#">
-                                    <button class="cont_btn mbtn w-100 bold5">Send Message</button>
-                                </a>
+                            <div class="row m2">
+                                <div class="col-md-12 col-12 p-0">
+                                    <input type="btn" class="cont_btn mbtn w-100 bold5 txtc" value="Send Message"></button>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-12 col-12 lbl">
-                                <h5 class="bold5 option_title m4 ltag pd">Contact Information</h5>
-                                <div class="pd cont_icon m2">
-                                    <i class="fas fa-map-pin px1"></i>
-                                    <span>Monnos 90A, 8200 Aarhus</span><br>
-                                </div>
-                                <div class="m1 pd cont_icon">
-                                    <i class="fas fa-phone-alt px1"></i>
-                                    <span>+4571997707</span>
-                                </div>
-                                <div class="pd cont_icon">
-                                    <i class="fas fa-envelope px1"></i>
-                                    <span>mail@monnos.com</span>
+                            <div class="row">
+                                <div class="col-md-12 col-12 lbl">
+                                    <h5 class="bold5 option_title m4 ltag pd">Contact Information</h5>
+                                    <div class="pd cont_icon m2">
+                                        <i class="fas fa-map-pin px1"></i>
+                                        <span>Monnos 90A, 8200 Aarhus</span><br>
+                                    </div>
+                                    <div class="m1 pd cont_icon">
+                                        <i class="fas fa-phone-alt px1"></i>
+                                        <span>+4571997707</span>
+                                    </div>
+                                    <div class="pd cont_icon">
+                                        <i class="fas fa-envelope px1"></i>
+                                        <span>mail@monnos.com</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </form>    
                 </div>
             </div>
-        </div>
+        </div>    
     </section>
 </body>
