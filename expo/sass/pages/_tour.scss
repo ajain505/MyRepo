@@ -1,17 +1,28 @@
 //header
   .nav_link{
-    padding: 0rem 2rem !important;
+    padding: 0rem 0.9rem !important;
     color: whitesmoke;
     font-size: 1.5rem;
   }
+  .nav_link:hover{
+    color: #f6f2ef;
+    border-bottom: 2px solid #f6f2ef;
+    transition: all ease-in-out .2s;
+
+  }
   .nav_btn{
-    margin: 0rem 1.6rem;
-    border-radius: 2rem;
-    padding: 0.7rem 2rem !important;
+    // margin: 0rem 0.1rem;
+    border-radius: 0.7rem;
+    padding: 0.5rem 1.3rem !important;
     background-color: transparent;
     color: white;
     border: 0.1px solid whitesmoke;
   }
+  .nav_btn:hover{
+    background-color: #f85959e4;
+    border: none;
+  }
+
   .nav_bar{
     font-size: 3rem;
   }
@@ -96,4 +107,18 @@
   background-color:#f8faff;
 }
 
+//carousal
+.carousel-control-prev-icon{
+  background-color: rgba(118, 114, 114, 0.521);
+  border-radius: 50%;
+  padding: 1.3rem !important;
+}
+.carousel-control-next-icon{
+  background-color: rgba(118, 114, 114,0.521);
+  border-radius: 50%;
+  padding: 1.3rem !important;
+}
+.carousel-item img{
+  height: 59rem !important;
+}
   

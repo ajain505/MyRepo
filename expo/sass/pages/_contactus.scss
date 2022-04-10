@@ -1,18 +1,19 @@
 // contact us
 
 .cont_mrg {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 .cont_bck {
-  background-color: #f5f5f5;
+  background-image: url(/images/prject_img/bg16.jpg);
+  background-size: cover;
 }
 .cont_content {
-  padding: 7rem;
-  background-color: white;
+  padding: 4rem;
+  background-color: #17171783;
   border-radius: 1rem;
 }
 .option {
-  background-color: #f5f5f5;
+  background-color: #f5f5f580;
   padding: 2.1rem !important;
   border-radius: 0.5rem;
 }
@@ -22,10 +23,9 @@
 
 //contact card
 .cont_card {
-  background-color: #f5f5f5;
+  background-color: #2a2c2c76;
   color: rgb(75, 72, 72);
-  padding: 5rem;
-  margin: 2rem 0rem;
+  padding: 4rem;
   border-radius: 0.5rem;
 }
 .cont_input {
@@ -34,8 +34,14 @@
   border: none;
   margin-top: 0.3rem !important;
   width: 100%;
+  background-color: #ffffffc2;
 }
-
+.cont_input::placeholder,.cont_textarea::placeholder{
+  color: rgb(58, 58, 58);
+}
+.lbl{
+  color: #ebf0edd9;
+}
 .cont_email {
   padding: 0.7rem 0rem 0.7rem 0.7rem;
 }
@@ -43,9 +49,12 @@
   border-radius: 0.5rem;
   border: none;
   width: 100%;
+  padding: 0.7rem;
+  background-color: #ffffffc2;
 }
+
 .cont_btn {
-  background-color: rgb(12, 45, 105) !important;
+  background-color: #f85959e4 !important;
   border: none;
   color: #fff;
 }
@@ -53,8 +62,8 @@
   background-color: rgba(0, 0, 0, 0.747) !important;
   color: rgba(255, 255, 255, 0.87);
 }
-.cont_input:focus {
-  border: 2px solid rgb(158, 140, 173);
+.cont_input:focus,textarea:focus {
+  outline: none;
 }
 .cont_icon {
   padding: 0rem 0.5rem;
