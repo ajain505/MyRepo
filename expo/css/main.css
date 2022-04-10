@@ -1672,6 +1672,57 @@ body {
 }
 
 .carousel-item img {
-  height: 59rem !important;
+  height: 60rem !important;
+}
+
+.card2_icon {
+  width: 1.8rem;
+}
+
+.card2_btn {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.cl {
+  color: #2f89fc;
+}
+
+.imgh {
+  height: 25rem;
+}
+
+.imghe {
+  height: 20rem;
+}
+
+.rbtn {
+  background-color: white;
+  color: #ec5b5b;
+  border: solid 0.1rem #ec5b5b;
+  border-radius: 3rem;
+}
+
+.bora {
+  border-radius: 1.2rem;
+}
+
+.rbtn:hover {
+  background-color: #ec5b5b;
+  color: white;
+}
+
+.scht {
+  height: 50rem;
+}
+
+@media screen and (max-width: 780px) {
+  .imgh {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
