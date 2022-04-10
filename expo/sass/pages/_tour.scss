@@ -122,46 +122,4 @@
   height: 60rem !important;
 }
   
-//special offers
-.card2_icon{
-  width: 1.8rem;
-}
-.card2_btn{
-  padding: 0.3rem;
-  font-size: 1.2rem;
-  background-color: #8bc34a;
-  color:white;
-  border: none;
-  border-radius: 0.5rem;
 
-}
-.cl{
-  color: #2f89fc;
-}
-.imgh{
-  height: 25rem;
-}
-.imghe{
-  height: 20rem;
-}
-.rbtn{
-  background-color: white;
-  color: rgb(236, 91, 91);
-  border: solid 0.1rem rgb(236, 91, 91);
-  border-radius: 3rem;
-}
-.bora{
-  border-radius: 1.2rem;
-}
-.rbtn:hover{
-  background-color: rgb(236, 91, 91);
-  color: rgb(255, 255, 255);
-}
-.scht{
-  height: 50rem;
-}
-@media screen and (max-width: 780px) {
-  .imgh{
-      height: auto;
-  }
-}
