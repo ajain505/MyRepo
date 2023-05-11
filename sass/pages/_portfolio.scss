@@ -31,7 +31,7 @@
 }
 .nav_link a{
     color: rgb(39, 38, 38);
-    padding-right: 3.2rem;
+    padding-right: 3rem;
 }
 .nav_icon{
     font-size: 1.1rem;
@@ -95,7 +95,6 @@
     color: #ffbf68;
 }
 
-
 .gridtest {
     height: 78vh;
     display: grid;
@@ -121,6 +120,7 @@
     border-radius: 0.5rem;
     background-color: #fff594;
   }
+
 
 .svc_card:hover{
     box-shadow: 0px 10px 30px 0 rgba(182, 182, 182, 0.89);
@@ -161,29 +161,33 @@
 @media only screen and (max-width: 1200px) {
 
     .container{
-      max-width: 102rem !important;
+      max-width: 97rem !important;
     }
     .head_input{
-        padding-right:6rem ;
+        padding-right:4rem ;
     }
     .jumbo{
         font-size: 4.6rem;
+    }
+    .svc_card{
+        min-height: 51rem;
+        margin: 1rem;
     }
 
 }
 
 @media only screen and (max-width: 992px) {
     .container{
-        max-width: 90rem !important;
+        max-width: 81rem !important;
     }
     .head_input{
-        padding-right:15rem ;
+        padding-right:5.3rem ;
     }
     .tc{
         text-align: center;
     }
     .jumbo{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     // .fwr{
     //     flex-wrap: wrap;
@@ -193,6 +197,14 @@
     }
     .number{
         padding-right: 0rem !important;
+    }
+    .btn{
+        padding: 0.8rem 1.8rem;
+    }
+    .svc_card{
+       
+        margin: 0.5rem;
+        padding: 2.5rem;
     }
 
 }
@@ -209,10 +221,13 @@
 
 @media only screen and (max-width: 768px) {
    .container{
-       max-width: 68rem !important;
+       max-width: 58rem !important;
    }
+   .icon_x{
+    width: 11rem;
+    }
    .jumbo{
-    font-size: 5.3rem;
+    font-size: 5rem;
     }
     .fwr{
         flex-wrap: wrap;
@@ -226,14 +241,22 @@
     .tc{
         text-align: center;
     }
+    .svc_card{
+       
+        margin: 4.5rem;
+        padding: 4.5rem;
+    }
 }
 
 @media only screen and (max-width: 576px) {
     .container{
-        max-width: 53rem !important;
+        max-width: 38rem !important;
+    }
+    .icon_x{
+        width: 10rem;
     }
     .jumbo{
-        font-size: 4.6rem;
+        font-size: 3.6rem;
     }
     .tc{
         text-align: center;
@@ -255,7 +278,7 @@
         padding-bottom: 3rem;
     }
     .hero_btn{
-        padding: 0.5rem 1.5rem;
+        padding: 0.5rem 1.2rem;
     }
     .mrg{
         margin: 0rem;
@@ -265,6 +288,17 @@
     }
     .gridtest{
         height: 50vh;
+    }
+    .news_heading{
+        font-size: 3rem;
+    }
+    .news_input{
+        margin-bottom: 0.6rem;
+    }
+    .svc_card{
+       min-height: 47rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
     }
 }
 
